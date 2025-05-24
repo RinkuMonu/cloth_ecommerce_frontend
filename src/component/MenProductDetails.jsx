@@ -15,7 +15,7 @@ import { addToCart } from "../features/cart/cartSlice";
 import { toast } from "react-toastify";
 import tostSuccess from "/public/Group.svg";
 import { addToWishlist } from "../features/wishlist/wishlistSlice";
-// import ReactImageMagnify from "react-image-magnify";
+
 
 import {
   buyNow,
@@ -316,32 +316,7 @@ const MenProductDetails = () => {
                     }}
                   /> */}
 
-                  {/* <div style={style}>
-                    <ReactImageMagnify
-                      {...{
-                        smallImage: {
-                          alt: "Product Image",
-                          isFluidWidth: true,
-                          src: product?.record?.images[index],
-                        },
-                        largeImage: {
-                          src: product?.record?.images[index],
-                          width: 1200, // Width of large image
-                          height: 1400, // Height of large image
-                        },
-                        enlargedImageContainerStyle: {
-                          borderRadius: "10px",
-                        },
-                        enlargedImageContainerDimensions: {
-                          width: "250%",
-                          height: "100%",
-                        },
-                      }}
-                      // fadeDurationInMs={700}
-                      hoverDelayInMs={300}
-                      isActivatedOnTouch={true}
-                    />
-                  </div> */}
+               
 
                   <div className="sinmenprdrel">
                     <FaRegHeart
