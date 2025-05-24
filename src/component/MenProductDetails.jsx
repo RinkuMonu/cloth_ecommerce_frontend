@@ -15,7 +15,7 @@ import { addToCart } from "../features/cart/cartSlice";
 import { toast } from "react-toastify";
 import tostSuccess from "/public/Group.svg";
 import { addToWishlist } from "../features/wishlist/wishlistSlice";
-import ReactImageMagnify from "react-image-magnify";
+// import ReactImageMagnify from "react-image-magnify";
 
 import {
   buyNow,
@@ -316,7 +316,7 @@ const MenProductDetails = () => {
                     }}
                   /> */}
 
-                  <div style={style}>
+                  {/* <div style={style}>
                     <ReactImageMagnify
                       {...{
                         smallImage: {
@@ -341,7 +341,7 @@ const MenProductDetails = () => {
                       hoverDelayInMs={300}
                       isActivatedOnTouch={true}
                     />
-                  </div>
+                  </div> */}
 
                   <div className="sinmenprdrel">
                     <FaRegHeart
